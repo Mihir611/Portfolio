@@ -1,0 +1,26 @@
+@reference "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --orange: 255 140 0;
+}
+
+body {
+  background: radial-gradient(circle at top, #0a0a0a, #000 70%);
+  color: rgb(var(--orange));
+  overflow-x: hidden;
+}
+
+.glow {
+  text-shadow: 0 0 14px rgba(var(--orange), 0.6);
+}
+
+@layer components {
+  .card {
+    @apply backdrop-blur border border-orange-500/20 rounded-2xl p-6;
+    background-color: rgba(23, 23, 23, 0.7); /* neutral-900 @ 70% */
+  }
+}
