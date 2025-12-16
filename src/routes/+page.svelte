@@ -3,7 +3,7 @@
   import Background from '$lib/components/Background.svelte';
 
   import Hero from '$lib/stories/Hero.svelte';
-  import Terminal from '$lib/components/Terminal2.svelte';
+  import Terminal from '$lib/components/Terminal3.svelte';
   import About from '$lib/stories/About.svelte';
   import Projects from '$lib/stories/Projects.svelte';
   import Experience from '$lib/stories/Experience.svelte';
